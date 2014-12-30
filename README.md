@@ -13,8 +13,8 @@ rake db:create db:migrate
 rackup
 
 # Fire up Resque:
-RESQUE_SCHEDULER_INTERVAL=0.5 rake resque:scheduler
-QUEUE=* rake resque:work
+make scheduler
+make work
 ```
 
 Visit [http://localhost:9292/users/new](http://localhost:9292/users/new) and sign yourself up!
