@@ -1,6 +1,6 @@
 # ActiveJob Retry test
 
-`resque-retry` is really neat and I wanted to see how easy it would be to re-implement this generically  with Rails 4.2 ActiveJob. Turns out it's pretty easy. The meat is in [`FollowUpEmailJob`](https://github.com/isaacseymour/activejob-retry-test/blob/master/app/jobs/follow_up_email_job.rb).
+[`resque-retry`](https://github.com/lantins/resque-retry) is really neat and I wanted to see how easy it would be to re-implement this generically  with Rails 4.2 ActiveJob. Turns out it's pretty easy. The meat is in [`FollowUpEmailJob`](https://github.com/isaacseymour/activejob-retry-test/blob/master/app/jobs/follow_up_email_job.rb).
 
 ## Running
 ```bash
