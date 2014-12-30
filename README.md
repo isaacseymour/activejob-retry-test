@@ -17,3 +17,5 @@ QUEUE=* rake resque:work
 ```
 
 Visit [http://localhost:9292/users/new](http://localhost:9292/users/new) and sign yourself up! You shouldn't need to `rake db:migrate` etc because the database is committed, it is only a test...
+
+Mailcatcher shows its inbox on [1080](http://localhost:1080).
