@@ -9,6 +9,7 @@ mailcatcher # Teeny SMTP server to check that the job is sending emails
 
 # Get everything installed and serving
 bundle install
+rake db:create db:migrate
 rackup
 
 # Fire up Resque:
@@ -16,6 +17,6 @@ RESQUE_SCHEDULER_INTERVAL=0.5 rake resque:scheduler
 QUEUE=* rake resque:work
 ```
 
-Visit [http://localhost:9292/users/new](http://localhost:9292/users/new) and sign yourself up! You shouldn't need to `rake db:migrate` etc because the database is committed, it is only a test...
+Visit [http://localhost:9292/users/new](http://localhost:9292/users/new) and sign yourself up!
 
 Mailcatcher shows its inbox on [1080](http://localhost:1080).
