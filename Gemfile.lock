@@ -1,3 +1,10 @@
+GIT
+  remote: git@github.com:isaacseymour/activejob-retry
+  revision: e3504cd5aec23ca8c9b4274867a120c74371c539
+  specs:
+    activejob-retry (0.0.1)
+      activejob (>= 4.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -175,6 +182,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activejob-retry!
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
