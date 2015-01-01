@@ -3,7 +3,7 @@ class FollowUpEmailJob < ActiveJob::Base
   # Retry code #
   ##############
   include ActiveJob::Retry
-  variable_retry strategy: [0, 3, 5, 10],
+  variable_retry delays: [0, 3, 5, 10],
                  min_delay_multiplier: 0.5,
                  max_delay_multiplier: 1.0
 
