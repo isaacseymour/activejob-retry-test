@@ -42,4 +42,4 @@ gem 'resque', '~> 1'
 gem 'resque-scheduler'
 gem 'pry-byebug'
 
-gem 'activejob-retry', git: 'git@github.com:isaacseymour/activejob-retry', require: 'active_job-retry'
+gem 'activejob-retry', git: 'git@github.com:isaacseymour/activejob-retry', branch: 'master', require: 'active_job/retry'

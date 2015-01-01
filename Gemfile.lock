@@ -1,9 +1,11 @@
 GIT
   remote: git@github.com:isaacseymour/activejob-retry
-  revision: e3504cd5aec23ca8c9b4274867a120c74371c539
+  revision: a2bb468e05092d759d4fe54c50c6ed6faca004e3
+  branch: master
   specs:
-    activejob-retry (0.0.1)
+    activejob-retry (0.1.0)
       activejob (>= 4.2)
+      activesupport (>= 4.2)
 
 GEM
   remote: https://rubygems.org/
